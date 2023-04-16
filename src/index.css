@@ -11,3 +11,47 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+/* Style for the text container */
+.nmart-text {
+  display: inline-block;
+  color: rgb(29, 211, 23);
+  text-shadow: 2px 2px #ccc;
+  transform-style: preserve-3d;
+  perspective: 1000px;
+}
+
+/* Animation for the text container */
+@keyframes nmart-animation {
+  0% {
+    transform: rotateY(0deg);
+  }
+  50% {
+    transform: rotateY(180deg);
+  }
+  100% {
+    transform: rotateY(360deg);
+  }
+}
+
+/* Apply animation to the text container */
+.nmart-text:hover {
+  animation: nmart-animation 2s ease-in-out infinite;
+}
+
+
+
+
+
+.btn-outline {
+  color: #000;
+  background-color: #fff;
+  border-color: #000;
+}
+
+.btn-outline:hover {
+  color: #fff;
+  background-color: #000;
+  border-color: #fff;
+}

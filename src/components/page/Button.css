@@ -1,0 +1,19 @@
+.btn-outline {
+  color: #000;
+  background-color: #fff;
+  border-color: #000;
+}
+
+.btn-outline:hover {
+  color: #fff;
+  background-color: #000;
+  border-color: #fff;
+}
+/* 
+  .product img{
+    transition: all 0.5s ease;
+  }
+  .product img:hover{
+    transform: scale(1,1);
+  } */
+
