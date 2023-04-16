@@ -16,4 +16,10 @@
   .product img:hover{
     transform: scale(1,1);
   } */
-
+  @media (max-width: 576px) { 
+    .buttons {
+      flex-direction: column;
+      align-items: center;
+      gap: 2rem;
+      }
+   }
